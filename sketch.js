@@ -44,10 +44,9 @@ function draw() {
 	let end1 = map(sec, 0, 60, 0, 360);
 	arc(0,0, 300, 300, 0, end1);
 
-	push();
 	rotate(end1);
 	ellipse(width/5,height/5, 30, 30);
-	pop();
+
 
 
 	// fill(0);
