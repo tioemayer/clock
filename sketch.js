@@ -45,44 +45,8 @@ function draw() {
 	arc(0,0, 300, 300, 0, end1);
 
 	rotate(end1);
-	ellipse(width/5,height/5, 30, 30);
-
-
-
-	// fill(0);
-	// ellipse(200+sec, 200+sec, 50, 50);
-
-	//Kreis Sekunden
-  //arc(width/2,height/2, 600,600, 0, 360);
-	//fill(260,10,90,150);
-
-
-	//Zeiger Sekunden
-//	translate(width/2,height/2);
-//	rotate(+6*sec);
-//	translate(-width/2,-height/2);
-	//line(width/2, height/2, width/2+300, height/2);
-
-
-
-
-	//Kreis Minuten
-//  arc(width/2,height/2, 300,300, 0, 360);
-//	fill(30,120,120);
-
-
-	//Zeiger Minuten
-//	translate(width/2,height/2);
-//	rotate(+6*sec);
-//	translate(-width/2,-height/2);
-	//line(width/2, height/2, width/2+300, height/2);
-
-
+	ellipse(width/4.5,0, 30, 30);
 
 
 
 }
-
-
-
-//translate(10+100/2,10+200/2); //verschieben in die Mitte des Objekts
